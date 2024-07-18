@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FROM NOW ON</title>
+    <style>
+        body { margin: 0; overflow: hidden; 
+            background-image: url('bg2.jpg');
+            background-size: cover; 
+            background-position: absolute;  
+        }
+        canvas { display: block; position: absolute; z-index: 2; } /* Canvas를 뒤로 보냅니다 */
+        .text { 
+            font-size: 30px; 
+            color: white; 
+            text-align: center; 
+            position: absolute; 
+            top: 80%; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 1; /* 텍스트를 위로 보냅니다 */
+            background-color: blue;
+            border: 2em;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/renderers/CSS3DRenderer.js"></script>
+    <div class="text"><b>프나온 페이지</br>공사 중!</b></br><p>광고 문의🧙‍♂️</br>INSTAGRAM @fromnowon.mag DM </br>또는 fromnowonmag@gmail.com</p></div>
+    <script src="script.js"></script>
+</body>
+</html>
